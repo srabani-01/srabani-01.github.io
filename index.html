@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Engineering Notes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SIQUL: CSE Engineering Question Notes</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Notes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Ask questions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Access Your CSE Question Notes Anytime, Anywhere</h2>
+            <p>Comprehensive resources for Computer Science and Engineering students.<br>
+				There are some GATE yearly question papers ----
+			</p>
+			<button onclick="window.open('CSE1.pdf','_blank')" type="button">GATE 2024 SET-1 Questions</button>
+			<button onclick="window.open('CSE2.pdf','_blank')" type="button">GATE 2024 SET-2 Questions</button>
+			<button onclick="window.open('CSE3.pdf','_blank')" type="button">GATE 2023 Questions</button>
+			<button onclick="window.open('CSE4.pdf','_blank')" type="button">GATE 2022 Questions</button><br><br>
+			<button onclick="window.open('CSE5.pdf','_blank')" type="button">apcsaexam sample MCQ</button>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>Notes</h2>
+        <div class="course-list">
+            <div id="DSA" class="course-item">
+                <h3>Data Structures and it's algorithms</h3>
+                <p>Learn about DSA algorithms and their implementations.</p>
+                <button onclick="window.open('dsa.pdf','_blank')" type="button">Code_with_Harry Handwritten notes</button>
+            </div>
+            <div id="JS" class="course-item">
+                <h3>Java Script Notes</h3>
+                <p>Understand the fundamentals of JS language for Web Development</p>
+                <button onclick="window.open('Java script Notes.pdf','_blank')" type="button">Java-Script ebook</button>
+            </div>
+            <div id="CD" class="course-item">
+                <h3>Compiler design</h3>
+                <p>Learn about compiler design of a computer system.</p>
+                <button onclick="window.open('Compiler Design Book.pdf','_blank')" type="button">Compiler Design ebook</button>
+				<button onclick="window.open('Compiler Design_SDAS.pdf','_blank')" type="button">Compiler Design short notes</button>
+            </div>
+			<div id="DBMS" class="course-item">
+                <h3>DBMS Lab Practice</h3>
+                <p>Here We have merged some lab practice questions.</p>
+                <button onclick="window.open('dbms1.pdf','_blank')" type="button">DBMS lab practice notes</button>
+            </div>
+			<div id="DCN" class="course-item">
+                <h3>Data Communication and Network</h3>
+                <p>Learn about Data Communication and Network of computer systems.</p>
+                <button onclick="window.open('cnet1.pdf','_blank')" type="button">Data Communication and Network ebook</button>
+            </div>
+			<div id="IoT" class="course-item">
+                <h3>Internet Of Things</h3>
+                <p>This is a ebook of Internet Of Things, Learn about IoT in a computer systems.</p>
+                <button onclick="window.open('iot.pdf','_blank')" type="button">Internet Of Things ebook</button>
+            </div>
+            <!-- Add more courses as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+			Welcome to SIQUL E-Learning Platform, your go-to online resource for academic success in college! We understand the unique challenges college students face, and we’re here to provide you with the tools and resources you need to excel in your studies and beyond.<br><br>
+
+			<b>Our Mission</b><br><br>
+
+			Our mission is to support college students in their academic journey by offering high-quality, accessible, and engaging online courses and resources. We aim to enhance your learning experience, providing you with the flexibility to study at your own pace, anytime and anywhere.<br><br>
+
+			 <b>What We Offer</b><br><br>
+
+			At our SIQUL E-Learning Platform, we offer CSE imortant questions and study materials to various programs and majors.<br><br>
+
+			<b>Why Choose Us?</b><br><br>
+
+			<b>Flexible Learning:</b><br><br> Access CSE courses and materials on your schedule, whether you’re balancing classes, work, or extracurricular activities. You don't have to research all over internet.<br><br>
+			<b>Expert Instructors:</b><br><br> Learn from E-books or Hand written notes who bring real-world expertise to each course.<br><br>
+			<b>Comprehensive Resources:</b><br><br> Dive deep into subjects with a variety of study aids, including video lectures, interactive quizzes, and downloadable notes.
+			Get Started<br><br>
+
+			Take control of your education with SIQUL. Explore our notes offerings and discover new ways to achieve your academic goals. We’re excited to be part of your college journey and are committed to helping you succeed.<br>
+
+
+		</p>
+    </section>
+
+    <section id="contact">
+        <h2>Ask Questions</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+			<p id="messageReceive"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SIQUL. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
