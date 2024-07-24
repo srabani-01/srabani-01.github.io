@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('img1.jpeg');
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  height: 400px;
+  color: #000000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#courses
+{
+  padding: 2rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(252, 249, 207), rgb(137, 254, 164));
+}
+#about{
+  padding: 2rem;
+  text-align: left;
+  background-image: linear-gradient(to bottom, rgb(252, 249, 207), rgb(137, 254, 149));
+}
+#contact {
+  padding: 2rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(137, 254, 149),  rgb(244, 254, 137));
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course-item {
+  width: 25%;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006666;
+}
+
+footer {
+  background-image: url('download.jpeg');
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+b{
+  font-size: 20px;
+}
+ 
