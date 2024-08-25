@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-image: url('img1.jpeg');
+  background-image: linear-gradient(to bottom right, white, blue);
   color: #ffffff;
   padding: 1rem;
   text-align: center;
@@ -30,7 +30,7 @@ nav ul li a {
 
 #hero {
   background: url('hero.jpg') no-repeat center center/cover;
-  height: 400px;
+  height: auto;
   color: #000000;
   text-align: center;
   display: flex;
@@ -40,7 +40,9 @@ nav ul li a {
 
 #courses
 {
-  padding: 2rem;
+  padding: 40px;
+  width: 100%;
+  height: auto;
   text-align: center;
   background-image: linear-gradient(to bottom, rgb(252, 249, 207), rgb(137, 254, 164));
 }
@@ -98,7 +100,7 @@ button:hover {
 }
 
 footer {
-  background-image: url('download.jpeg');
+  background-image: linear-gradient(to bottom right, white, blue);
   color: #fff;
   text-align: center;
   padding: 1rem;
