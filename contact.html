@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="contact.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    
+    <!-- Move to up button -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+      </div>
+      <!-- navgaition menu -->
+      <nav>
+        <div class="navbar">
+          <div class="logo"><a href="#">Blackmind</a></div>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="media-icons">
+            <a href="https://www.linkedin.com/in/srabani-pal-77192a222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/crasy_digital?igsh==MTJ5M2w2MDZpNzEzbA=="><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" id="m">Send</button>
+			<p id="messageReceive"></p>
+        </form>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>&#169; 2024 Blackmind - All Rights Reserved</span><br>
+      </div>
+    </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>

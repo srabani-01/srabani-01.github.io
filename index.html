@@ -1,116 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS Engineering Notes</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>SIQUL: CSE Engineering Question Notes</h1>
-        <nav>
-            <ul>
-                <li><a href="#courses">Notes</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Ask questions</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Access Your CSE Question Notes Anytime, Anywhere</h2>
-            <p>Comprehensive resources for Computer Science and Engineering students.<br>
-				There are some GATE yearly question papers ----
-			</p>
-			<button onclick="window.open('CSE1.pdf','_blank')" type="button">GATE 2024 SET-1 Questions</button>
-			<button onclick="window.open('CSE2.pdf','_blank')" type="button">GATE 2024 SET-2 Questions</button>
-			<button onclick="window.open('CSE3.pdf','_blank')" type="button">GATE 2023 Questions</button>
-			<button onclick="window.open('CSE4.pdf','_blank')" type="button">GATE 2022 Questions</button><br><br>
-			<button onclick="window.open('CSE5.pdf','_blank')" type="button">apcsaexam sample MCQ</button>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Blackmind</a></div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/srabani-pal-77192a222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/crasy_digital?igsh==MTJ5M2w2MDZpNzEzbA=="><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Srabani Pal</div>
+          <div class="text-three">Passionate about UI/UX Designer and Front-End developer</div>
+          <div class="text-four">From India<div> 
+        </div>
         </div>
     </section>
-
-    <section id="courses">
-        <h2>Notes</h2>
-        <div class="course-list">
-            <div id="DSA" class="course-item">
-                <h3>Data Structures and it's algorithms</h3>
-                <p>Learn about DSA algorithms and their implementations.</p>
-                <button onclick="window.open('dsa.pdf','_blank')" type="button">Start Learn</button>
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="img.jpg" alt="" />
+            <img src="8.jpg" alt="" />
+            <p>Yeah! I'm a anime fan</p>
+            <img src="11.jpg" alt="" />
+            <img src="bg1.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Hey! I'm a avg CSE student</div>
+            <p>
+                Always motivated to create new ideas with a strong foundation of web application. Interested in Web designing, graphics designing, 3D Model creation and many more things. Adept at designing and implementing scalable, efficient, and user- friendly application.<br><br>Lastly!! you're right~ Seeking for a job and hands on project experience in an industrial or organization career.</p>
+            <div class="button">
+              <button onclick="window.open('RESUME.pdf')">Download Resume</button>
             </div>
-            <div id="JS" class="course-item">
-                <h3>Java Script Notes</h3>
-                <p>Understand the fundamentals of JS language for Web Development</p>
-                <button onclick="window.open('Java script Notes.pdf','_blank')" type="button">Start Learn</button>
-            </div>
-            <div id="CD" class="course-item">
-                <h3>Compiler design</h3>
-                <p>Learn about compiler design of a computer system.</p>
-                <button onclick="window.open('Compiler Design Book.pdf','_blank')" type="button">Start Learn</button>
-				<button onclick="window.open('Compiler Design_SDAS.pdf','_blank')" type="button">Start Learn</button>
-            </div>
-			<div id="DBMS" class="course-item">
-                <h3>DBMS Lab Practice</h3>
-                <p>Here We have merged some lab practice questions.</p>
-                <button onclick="window.open('dbms1.pdf','_blank')" type="button">Start Learn</button>
-            </div>
-			<div id="DCN" class="course-item">
-                <h3>Data Communication and Network</h3>
-                <p>Learn about Data Communication and Network of computer systems.</p>
-                <button onclick="window.open('cnet1.pdf','_blank')" type="button">Start Learn</button>
-            </div>
-			<div id="IoT" class="course-item">
-                <h3>Internet Of Things</h3>
-                <p>This is a ebook of Internet Of Things, Learn about IoT in a computer systems.</p>
-                <button onclick="window.open('iot.pdf','_blank')" type="button">Start Learn</button>
-            </div>
-            <!-- Add more courses as needed -->
+          </div>
         </div>
+      </div>
     </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>
-			Welcome to SIQUL E-Learning Platform, your go-to online resource for academic success in college! We understand the unique challenges college students face, and we’re here to provide you with the tools and resources you need to excel in your studies and beyond.<br><br>
-
-			<b>Our Mission</b><br><br>
-
-			Our mission is to support college students in their academic journey by offering high-quality, accessible, and engaging online courses and resources. We aim to enhance your learning experience, providing you with the flexibility to study at your own pace, anytime and anywhere.<br><br>
-
-			 <b>What We Offer</b><br><br>
-
-			At our SIQUL E-Learning Platform, we offer CSE imortant questions and study materials to various programs and majors.<br><br>
-
-			<b>Why Choose Us?</b><br><br>
-
-			<b>Flexible Learning:</b><br><br> Access CSE courses and materials on your schedule, whether you’re balancing classes, work, or extracurricular activities. You don't have to research all over internet.<br><br>
-			<b>Expert Instructors:</b><br><br> Learn from E-books or Hand written notes who bring real-world expertise to each course.<br><br>
-			<b>Comprehensive Resources:</b><br><br> Dive deep into subjects with a variety of study aids, including video lectures, interactive quizzes, and downloadable notes.
-			Get Started<br><br>
-
-			Take control of your education with SIQUL. Explore our notes offerings and discover new ways to achieve your academic goals. We’re excited to be part of your college journey and are committed to helping you succeed.<br>
-
-
-		</p>
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills and abilities</div>
+            <p> o	Language: HTML, CSS, JAVA Script, Python, C.<br>
+                o	Databases: MySQL, MongoDB.<br>
+                o	Tools: Visual Studio Code, PyCharm, Cisco Packet Tracer.<br>
+                o	Figma, WordPress, Wireframe, Creative UI-UX designing.<br>
+                o	Analytical and problem-solving abilities.<br>
+                o	Effective communication and teamwork.<br>
+            </p>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">75%</div>
+            </div>
+            <div class="box">
+              <div class="topic">C</div>
+              <div class="per">85%</div>
+            </div>
+            <div id="p"> 
+            <p>Mosted used languages in my 3 years journey -----> </p><br>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <!-- My Services Section Start --
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Personal Projects</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">SIQUL: Development of an E-learning website.
+              </div>
+            <p>Led the development of a comprehensive E-learning platform aimed at providing notes of Computer Science and Engineering for users.</p><br>
+            <b><button id="m" onclick="window.location.href='https://srabani-01.github.io/';">Visit</button></b>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brur qt"></i>
+            </div>
+            <div class="topic">UI Design of a restaurant using Figma.</div>
+            <p>This includes the restaurant's website and mobile application, designed to enhance the user experience, facilitate easy navigation, and promote the restaurant's brand identity.</p>
+      </div>
+    </section>  -->
 
-    <section id="contact">
-        <h2>Ask Questions</h2>
-        <form id="contact-form">
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-			<p id="messageReceive"></p>
-        </form>
-    </section>
-
+    <!-- Footer Section Start -->
     <footer>
-        <p>&copy; 2024 SIQUL. All rights reserved.</p>
+      <div class="text">
+        <span>&#169; 2024 Blackmind - All Rights Reserved</span><br>
+      </div>
     </footer>
-
-    <script src="index.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
